@@ -1,6 +1,7 @@
 body {
   width: 100%;
   font-family: 'Roboto';
+  overflow-x: hidden;
 }
 
 .header {
@@ -83,8 +84,10 @@ body {
 }
 
 .button-header {
-  padding-left: 40%;
+  padding-left: 44%;
   padding-top: 34px;
+  justify-content: center;
+  align-items: center;
 }
 
 .button-start {
