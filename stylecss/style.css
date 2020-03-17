@@ -50,29 +50,28 @@ body {
 .hapo-logo {
   width: 250px;
   height: 70px;
-  padding-left: 42%;
+  padding-left: 40%;
   padding-top: 175px;
 }
 
 .icon-header {
-  padding-left: 35%; 
+  padding-left: 25%; 
   font-size: 48px;
-  padding-top: 48px;
 }
 
 .icon-header > div {
-  padding-top: 48px;
-  width: 21%;
+  padding-top: 30px;
+  width: 30%;
 } 
 
 .name-icon {
   font-size: 30px;
-  padding-left: 34%;
+  padding-left: 24%;
 }
 
 .name-icon > div {
   padding-top: 19px;
-  width: 21%;
+  width: 29%;
   color: #283238;
 }
 
@@ -80,7 +79,7 @@ body {
   font-size: 15px;
   color: #283238;
   padding-top: 53px;
-  padding-left: 38%;
+  padding-left: 30%;
 }
 
 .button-header {
@@ -90,36 +89,41 @@ body {
   align-items: center;
 }
 
-.button-start {
-  text-transform: uppercase;
-  border: 1px;
+.button {
   border-radius: 100px;
-  width: 195px;
-  height: 50px;
+  border: 1px;
+  width: 150px;
+  height: 45px;
+  color: white;
+  font-size: 13px;
+  text-transform: uppercase;
   background-color: #429321;
   background-image: linear-gradient(to right, #429321, #B4EC51);
-  color: white;
-  font-size: 15px;
 }
 
 .pragraph {
   width: 100%;
-  height: 571px;
-  padding-left: 10%;
+  height: 520px;
+  padding-left: 6%;
   padding-top: 100px;
   box-shadow:0 5px 15px 10px #E6E6FA;
 }
 
-.content-icon {
+ .content-icon {
+  align-items: center;
+} 
+
+.content-icon > i {
   font-size: 36px;
+  color: #39474E;
 }
 
-.textTitle {
+.content-icon plan{
   font-size: 38px;
   color: #39474E;
-  padding-left: 19px;
+  padding-left: 19px; 
 }
- 
+
 .slogan-main {
   font-size: 14px;
   padding-top: 15px;
@@ -130,13 +134,12 @@ body {
   text-align: justify;
   font-size: 13px;
   color: #39474E;
-  padding-top: 28px;
-  width: 555px;
+  width: 550px;
   height: 168px;
 }
 
 .button-main {
-  padding-top: 15px;
+  padding-top: 30px;
 }
 
 .button-start {
@@ -157,19 +160,20 @@ body {
   flex-direction: column;
 }
 
-.ovalMain {
+.symbol-main {
   height: 322px;
   background-color: #429321;
   background-image: linear-gradient(to right, #429321, #B4EC51);
 }
 
-.img-ovalMain {
+.img-symbol {
   padding-top: 70px;
   justify-content: space-around;
-  width: 1000px;
-  padding-left: 10%;
-  align-items: center;
-  text-align: center;
+  width: 95%;
+}
+
+.img-symbol >div {
+  padding-left: 5%;
 }
 
 .number {
@@ -177,7 +181,7 @@ body {
   color: white;
 }
 
-.text-ovalMain {
+.name-symbol {
   text-transform: uppercase;
   color: white;
   font-size: 16px;
@@ -194,7 +198,7 @@ body {
   align-items: center;
 }
 
-.svg {
+.ti-icon {
   border: 2.5px solid white;
   border-radius: 100%;
   height: 107px;
@@ -205,13 +209,13 @@ body {
   align-items: center;
 }
 
-.number{
+.number {
   background-color: #7CB342;
   border: 2.5px solid white;
   border-radius: 100%;
   width: 43px;
   height: 43px;
-  margin-top: -18px;
+  margin-top: -30px;
   text-align: center;
 }
 
@@ -226,24 +230,24 @@ body {
   color: #8BC34A;
   padding-right: 15px;
   line-height: 24px;
-  padding-bottom: 30px;
+  padding-top: 10px;
 }
 
 .text-edit {
   font-size: 13px;
   color: #39474E;
-  height: 50px;
+  height: 30px;
   width: 519px;
 }
 
 .our-customer {
-  height: 544px;
+  height: 495px;
   background-image: url(img/rectangle3.png);
 }
 
 .top-ourcustomer {
-  padding-top: 20px;
-  color: white;
+  padding-top: 15px;
+  color: #F8F8FF;
   font-size: 48px;
   text-align: center;
 }
@@ -254,8 +258,8 @@ body {
 
 .conttent-ourcustomer {
   justify-content: space-around;
-  width: 1000px;
-  padding-left: 10%;
+  width: 90%;
+  padding-left: 5%;
 }
 
 .Rectangle {
@@ -279,29 +283,33 @@ body {
 }
 
 .bottom-ourcustomer {
-  padding-top: 20px;
+  padding-top: 10px;
   padding-left: 15%;
+  width: 85%;
 }
 
-.ourcustomer-Six {
-  font-size: 72px;
-  color: white;
+.icon-left {
+  font-size: 55px;
+  color: #C0C0C0;
+  padding-top: 5px;
   padding-right: 27px;
 }
 
-.ourcustomer-Nine {
-  font-size: 72px;
-  color: white;
+.icon-right {
+  font-size: 55px;
+  color: #C0C0C0;
   padding-top: 80px;
+  padding-left: 27px;
 }
 
 .text-ourcustomer {
-  color: white;
-  font-size: 18px;
+  color: #F8F8FF;
+  font-size: 15px;
   text-align: justify;
   width: 750px;
   height: 90px;
   line-height: 30px;
+  padding-top: 15px;
 }
 
 .footer {
@@ -312,7 +320,7 @@ body {
 .part-footer {
   flex-direction: column;
   padding-top: 45px;
-  padding-left: 10%;
+  padding-left: 6%;
 }
 
 .top-footer > div {
