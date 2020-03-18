@@ -106,7 +106,7 @@ body {
   height: 520px;
   padding-left: 6%;
   padding-top: 100px;
-  box-shadow:0 5px 15px 10px #E6E6FA;
+  box-shadow: 0 5px 15px 10px #E6E6FA;
 }
 
  .content-icon {
@@ -142,19 +142,6 @@ span{
   padding-top: 30px;
 }
 
-.button-start {
-  text-transform: uppercase;
-  border: 1px;
-  border-radius: 100px;
-  width: 195px;
-  height: 50px;
-  background-color: #429321;
-  background-image: linear-gradient(to right, #429321, #B4EC51);
-  color: white;
-  padding-top: 15px;
-  text-align: center;
-}
-
 .pragraph-right {
   padding-left: 30px;
   flex-direction: column;
@@ -172,7 +159,7 @@ span{
   width: 95%;
 }
 
-.img-symbol >div {
+.img-symbol > div {
   padding-left: 5%;
 }
 
@@ -252,10 +239,6 @@ span{
   text-align: center;
 }
 
-.main-ourcustomer {
-  flex-direction: column;
-}
-
 .conttent-ourcustomer {
   justify-content: space-around;
   width: 90%;
@@ -268,7 +251,7 @@ span{
 }
 
 .edit-conttent {
-   display: flex;
+  display: flex;
   flex-direction: column;
 } 
 
