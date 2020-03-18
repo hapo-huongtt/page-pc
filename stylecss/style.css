@@ -113,7 +113,7 @@ body {
 .pragraph-main {
   width: 900px;
   height: 500px;
-  padding: 100px 15% 0px 15%; 
+  padding: 100px 20% 0px 20%; 
 }
 
 .img-main {
@@ -337,7 +337,8 @@ span {
 .section-footer {
   width: 900px;
   height: 179px;
-  padding-left: 15%;
+  padding: 0 20% 0 20%;
+
 }
 
 .part-footer {
