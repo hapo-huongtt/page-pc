@@ -1,0 +1,380 @@
+body {
+  width: 100%;
+  font-family: 'Roboto';
+  overflow-x: hidden;
+}
+
+.header {
+  width: 100%;
+  height: 873px;
+  background-image: url(./img/banner.png);
+  background-position: center;
+}
+
+.top-header {
+  padding: 40px 0px 0px 68%;
+  width: 20%;
+}
+
+.flex {
+  display: flex;
+}
+
+.about-sign {
+  text-transform: uppercase;
+  color: #39474E;
+  font-size: 12px;
+  padding-top: 15px;
+}
+
+.sign {
+  margin-left: 10%;
+  border: 2px solid #8BC34A;
+  border-radius: 100px;
+  height: 30px;
+  width: 70px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #8BC34A;
+  text-align: center;
+  justify-content: center;
+  align-items: center; 
+}
+
+.bottom-header  {
+  flex-direction: column;
+  padding-top: 242px;
+}
+
+.hapo-logo {
+  width: 250px;
+  height: 70px;
+  padding: 175px 0 0 40%;
+}
+
+.icon-header {
+  padding-left: 25%; 
+  font-size: 48px;
+}
+
+.icon-header > div {
+  padding-top: 30px;
+  width: 30%;
+} 
+
+.name-icon {
+  font-size: 30px;
+  padding-left: 24%;
+}
+
+.name-icon > div {
+  padding-top: 19px;
+  width: 29%;
+  color: #283238;
+}
+
+.slogan {
+  font-size: 15px;
+  color: #283238;
+  padding: 53px 0 0 30%;
+}
+
+.button-header {
+  padding: 34px 0 0 44%;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  border-radius: 100px;
+  border: 1px;
+  width: 150px;
+  height: 45px;
+  color: white;
+  font-size: 13px;
+  text-transform: uppercase;
+  background-color: #429321;
+  background-image: linear-gradient(to right, #429321, #B4EC51);
+}
+
+.conttent-main {
+  box-shadow:  0px -10px 10px 0px #D8BFD8;
+  width: 100%;
+  height: 500px;
+}
+
+.pragraph-main {
+  width: 900px;
+  height: 500px;
+  padding: 100px 0 0 15%; 
+}
+
+.img-main {
+  width: 500px;
+  height: 300px;
+}
+
+.content-icon {
+  align-items: center;
+} 
+
+.content-icon > i {
+  font-size: 32px;
+  color: #39474E;
+}
+
+span {
+  font-size: 34px;
+  color: #39474E;
+  padding-left: 19px; 
+}
+
+.slogan-main {
+  font-size: 10px;
+  color: #39474E;
+}
+
+.content-text {
+  text-align: justify;
+  font-size: 10px;
+  color: #39474E;
+  line-height: 16px;
+}
+
+.button-main {
+  padding-top: 30px;
+}
+
+.pragraph-right {
+  padding-left: 30px;
+  flex-direction: column;
+}
+
+.symbol-main {
+  background-color: #429321;
+  background-image: linear-gradient(to right, #429321, #B4EC51);
+}
+
+.img-symbol {
+  padding-top: 50px;
+  justify-content: space-around;
+  width: 960px;
+  height: 322px;
+  padding-left: 13%;
+}
+
+.number {
+  font-size: 24px;
+  color: white;
+}
+
+.name-symbol {
+  text-transform: uppercase;
+  color: white;
+  font-size: 16px;
+  width: 69px;
+  height: 42px;
+  padding-top: 12px;
+  text-align: center;
+}
+
+.txt-pragraph {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ti-icon {
+  border: 2.5px solid white;
+  border-radius: 100%;
+  height: 107px;
+  width: 107px;
+  color: white;
+  font-size: 36px;
+  justify-content: center;
+  align-items: center;
+}
+
+.number {
+  background-color: #7CB342;
+  border: 2.5px solid white;
+  border-radius: 100%;
+  width: 43px;
+  height: 43px;
+  margin-top: -30px;
+  text-align: center;
+}
+
+.txt-pragraph {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-box {
+  color: #8BC34A;
+  padding: 12px 5px 0 0;
+  font-size: 13px;
+}
+
+.text-edit {
+  font-size: 10px;
+  color: #39474E;
+  padding-left: 10px;
+} 
+
+.text-checkout {
+  line-height: 10px;
+}
+
+.pragraph-members {
+  padding-right: 40px;
+}
+
+.our-customer {
+  background-image: url(img/rectangle3.png);
+}
+
+.section-customer {
+  width: 980px;
+  height: 500px;
+  padding-left: 13%;
+}
+
+.top-ourcustomer {
+  padding-top: 15px;
+  color: #F8F8FF;
+  font-size: 48px;
+  text-align: center;
+}
+
+.conttent-ourcustomer {
+  justify-content: space-around;
+  width: 90%;
+  padding-left: 5%;
+}
+
+.user-picture {
+  width: 79px;
+  height: 80px;
+}
+
+.edit-conttent {
+  display: flex;
+  flex-direction: column;
+} 
+
+.picture-name {
+  color:white;
+  padding: 16px 0 0 15%;
+  width: 58px;
+  height: 31px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.customer-slide {
+  flex-direction: row;
+  justify-content: space-around;
+  width: 8%;
+  padding: 10px 0 0 46%;
+}
+
+.img-slide {
+  border: 2px solid white;
+  border-radius: 100%;
+  height: 8px;
+  width: 8px;
+  background-color: white;
+}
+
+.next-slide {
+  border: 1.5px solid white;
+  border-radius: 100%;
+  height: 8px;
+  width: 8px;
+}
+
+.bottom-ourcustomer {
+  padding: 5px 0 0 15%;
+  width: 700px;
+}
+
+.icon-left {
+  font-size: 55px;
+  color: #C0C0C0;
+  padding: 5px 27px 0 0;
+}
+
+.icon-right {
+  font-size: 55px;
+  color: #C0C0C0;
+  padding: 80px 0 0 27px;
+}
+
+.text-ourcustomer {
+  color: #F8F8FF;
+  font-size: 15px;
+  text-align: justify;
+  width: 750px;
+  height: 90px;
+  line-height: 30px;
+  padding-top: 15px;
+}
+
+.footer {
+  height: 179px;
+  background-color:#39474E;
+}
+
+.section-footer {
+  width: 900px;
+  height: 500px;
+  padding-left:  15%;
+}
+
+.part-footer {
+  flex-direction: column;
+  padding-top: 45px;
+}
+
+.top-footer > div {
+  color: #8BC34A;
+  line-height: 29px;
+  text-transform: uppercase;
+  font-size: 13px;
+  width: 150px;
+}
+
+.img-hapo {
+  width: 96px;
+  height: 26px;
+}
+
+.infor-footer > div {
+  width: 150px;
+  font-size: 10px;
+  line-height: 40px;
+  color: white;
+}
+
+.coppy-infor {
+  padding-top: 36px;
+}
+
+.contact-infor > p {
+  width: 63px;
+  height: 40px;
+}
+
+.icon-footer {
+  padding-top: 140px;
+}
+
+.icon-footer > i {
+  width: 38px; 
+  color: #8BC34A;
+  font-size: 15px;
+}
