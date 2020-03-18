@@ -101,7 +101,7 @@ body {
   background-image: linear-gradient(to right, #429321, #B4EC51);
 }
 
-.pragraph {
+.pragraph-main {
   width: 100%;
   height: 520px;
   padding-left: 6%;
@@ -109,7 +109,7 @@ body {
   box-shadow: 0 5px 15px 10px #E6E6FA;
 }
 
- .content-icon {
+.content-icon {
   align-items: center;
 } 
 
@@ -118,7 +118,7 @@ body {
   color: #39474E;
 }
 
-span{
+span {
   font-size: 38px;
   color: #39474E;
   padding-left: 19px; 
@@ -245,7 +245,7 @@ span{
   padding-left: 5%;
 }
 
-.Rectangle {
+.user-picture {
   width: 79px;
   height: 80px;
 }
@@ -255,7 +255,7 @@ span{
   flex-direction: column;
 } 
 
-.fullname {
+.picture-name {
   color:white;
   padding-top: 16px;
   width: 58px;
@@ -319,18 +319,18 @@ span{
   height: 26px;
 }
 
-.aboutUs > div {
+.infor-footer > div {
   width: 200px;
   font-size: 10px;
   line-height: 40px;
   color: white;
 }
 
-.coppy-aboutUs {
+.coppy-infor {
   padding-top: 36px;
 }
 
-.contact-aboutUs > p {
+.contact-infor > p {
   width: 63px;
   height: 40px;
 }
