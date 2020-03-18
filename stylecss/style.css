@@ -12,9 +12,8 @@ body {
 }
 
 .top-header {
-  padding-top: 40px;
+  padding: 40px 0px 0px 68%;
   width: 20%;
-  padding-left: 68%;
 }
 
 .flex {
@@ -50,8 +49,7 @@ body {
 .hapo-logo {
   width: 250px;
   height: 70px;
-  padding-left: 40%;
-  padding-top: 175px;
+  padding: 175px 0 0 40%;
 }
 
 .icon-header {
@@ -78,13 +76,11 @@ body {
 .slogan {
   font-size: 15px;
   color: #283238;
-  padding-top: 53px;
-  padding-left: 30%;
+  padding: 53px 0 0 30%;
 }
 
 .button-header {
-  padding-left: 44%;
-  padding-top: 34px;
+  padding: 34px 0 0 44%;
   justify-content: center;
   align-items: center;
 }
@@ -101,12 +97,22 @@ body {
   background-image: linear-gradient(to right, #429321, #B4EC51);
 }
 
-.pragraph-main {
+.conttent-main {
+  box-shadow:  0px -10px 10px 0px #D8BFD8;
   width: 100%;
-  height: 520px;
-  padding-left: 6%;
-  padding-top: 100px;
-  box-shadow:  0px 5px 15px 0px #D8BFD8;
+  height: 500px;
+}
+
+.pragraph-main {
+  width: 900px;
+  height: 500px;
+  padding: 100px 0 0 15%;
+ 
+}
+
+.img-main {
+  width: 500px;
+  height: 300px;
 }
 
 .content-icon {
@@ -114,28 +120,26 @@ body {
 } 
 
 .content-icon > i {
-  font-size: 36px;
+  font-size: 32px;
   color: #39474E;
 }
 
 span {
-  font-size: 38px;
+  font-size: 34px;
   color: #39474E;
   padding-left: 19px; 
 }
 
 .slogan-main {
-  font-size: 14px;
-  padding-top: 15px;
+  font-size: 10px;
   color: #39474E;
 }
 
 .content-text {
   text-align: justify;
-  font-size: 13px;
+  font-size: 10px;
   color: #39474E;
-  width: 550px;
-  height: 168px;
+  line-height: 16px;
 }
 
 .button-main {
@@ -148,19 +152,16 @@ span {
 }
 
 .symbol-main {
-  height: 322px;
   background-color: #429321;
   background-image: linear-gradient(to right, #429321, #B4EC51);
 }
 
 .img-symbol {
-  padding-top: 70px;
+  padding-top: 50px;
   justify-content: space-around;
-  width: 95%;
-}
-
-.img-symbol > div {
-  padding-left: 5%;
+  width: 960px;
+  height: 322px;
+  padding-left: 13%;
 }
 
 .number {
@@ -215,25 +216,32 @@ span {
 
 .text-box {
   color: #8BC34A;
-  padding-right: 15px;
-  line-height: 24px;
-  padding-top: 10px;
+  padding: 12px 5px 0 0;
+  font-size: 13px;
 }
 
 .text-edit {
-  font-size: 13px;
+  font-size: 10px;
   color: #39474E;
-  height: 30px;
-  width: 519px;
+  padding-left: 10px;
+} 
+
+.text-checkout {
+  line-height: 10px;
 }
 
-.pragraph-member {
-  padding-left: 40px;
+.pragraph-members {
+  padding-right: 40px;
 }
 
 .our-customer {
-  height: 495px;
   background-image: url(img/rectangle3.png);
+}
+
+.section-customer {
+  width: 980px;
+  height: 500px;
+  padding-left: 13%;
 }
 
 .top-ourcustomer {
@@ -261,21 +269,18 @@ span {
 
 .picture-name {
   color:white;
-  padding-top: 16px;
+  padding: 16px 0 0 15%;
   width: 58px;
   height: 31px;
   font-size: 13px;
   text-align: center;
-  padding-left: 15%;
 }
 
 .customer-slide {
-  display: flex;
   flex-direction: row;
   justify-content: space-around;
   width: 8%;
-  padding-left: 46%;
-  padding-top: 10px;
+  padding: 10px 0 0 46%;
 }
 
 .img-slide {
@@ -294,23 +299,20 @@ span {
 }
 
 .bottom-ourcustomer {
-  padding-top: 10px;
-  padding-left: 15%;
-  width: 85%;
+  padding: 5px 0 0 15%;
+  width: 700px;
 }
 
 .icon-left {
   font-size: 55px;
   color: #C0C0C0;
-  padding-top: 5px;
-  padding-right: 27px;
+  padding: 5px 27px 0 0;
 }
 
 .icon-right {
   font-size: 55px;
   color: #C0C0C0;
-  padding-top: 80px;
-  padding-left: 27px;
+  padding: 80px 0 0 27px;
 }
 
 .text-ourcustomer {
@@ -328,10 +330,15 @@ span {
   background-color:#39474E;
 }
 
+.section-footer {
+  width: 900px;
+  height: 500px;
+  padding-left:  15%;
+}
+
 .part-footer {
   flex-direction: column;
   padding-top: 45px;
-  padding-left: 6%;
 }
 
 .top-footer > div {
@@ -339,7 +346,7 @@ span {
   line-height: 29px;
   text-transform: uppercase;
   font-size: 13px;
-  width: 200px;
+  width: 150px;
 }
 
 .img-hapo {
@@ -348,7 +355,7 @@ span {
 }
 
 .infor-footer > div {
-  width: 200px;
+  width: 150px;
   font-size: 10px;
   line-height: 40px;
   color: white;
@@ -368,8 +375,7 @@ span {
 }
 
 .icon-footer > i {
-  width: 38px;
+  width: 38px; 
   color: #8BC34A;
   font-size: 15px;
 }
-
