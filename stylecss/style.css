@@ -227,6 +227,10 @@ span {
   width: 519px;
 }
 
+.pragraph-member {
+  padding-left: 40px;
+}
+
 .our-customer {
   height: 495px;
   background-image: url(img/rectangle3.png);
