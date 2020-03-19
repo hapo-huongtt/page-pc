@@ -128,7 +128,7 @@ body {
 }
 
 .pragraph-main {
-  width: 80%;
+  width: 69%;
   height: 500px;
   justify-content: center;
   align-items: center;
@@ -137,8 +137,8 @@ body {
 }
 
 .img-main {
-  width: 500px;
-  height: 300px;
+  height: 304px;
+  width: 400px;
 }
 
 .content-icon {
@@ -157,43 +157,51 @@ span {
 }
 
 .slogan-main {
-  font-size: 13px;
+  font-size: 12px;
   color: #39474E;
 }
 
 .content-text {
-  font-size: 13px;
+  font-size: 12px;
   color: #39474E;
-  line-height: 16px;
+  padding-top: 10px;
 }
 
 .button-main {
   padding-top: 30px;
 }
 
-.pragraph-right {
-  flex-direction: column;
+.pragraph-text {
   width: 50%;
+  margin: 30px;
+  height: 304px;
 }
 
-.pragraph-left {
+.pragraph-img {
   width: 50%;
-  padding-right: 30px;
+  margin: 30px;
 }
 
 .symbol-main {
   background-color: #429321;
   background-image: linear-gradient(to right, #429321, #B4EC51);
   justify-content: center;
-  align-items: center;
+}
+
+.symbol-main >div {
   text-align: center;
 }
 
 .img-symbol {
-  justify-content: space-around;
-  width: 90%; 
+  justify-content: center;
+  width: 100%; 
   height: 322px;
-  padding-left: 5%;
+}
+
+.img-symbol > div {
+  text-align: center;
+  margin: 50px;
+
 }
 
 .number {
@@ -209,13 +217,6 @@ span {
   height: 42px;
   padding-top: 12px;
   text-align: center;
-}
-
-.txt-pragraph {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .ti-icon {
@@ -248,19 +249,15 @@ span {
 
 .text-box {
   color: #8BC34A;
-  padding: 12px 5px 0 0;
-  font-size: 13px;
+  font-size: 12px;
+  padding-top: 14px;
 }
 
-.text-edit {
-  font-size: 13px;
+.check-box > p {
+  font-size: 12px;
   color: #39474E;
-  padding-left: 30px;
+  padding-left: 10px;
 } 
-
-.pragraph-members {
-  padding-right: 40px;
-}
 
 .our-customer {
   background-image: url(img/rectangle3.png);
@@ -281,7 +278,7 @@ align-items: center;
 .top-ourcustomer {
   text-align: center;
   color: #F8F8FF;
-  font-size: 48px;
+  font-size: 40px;
   padding-top: 10px;
 }
 
@@ -289,10 +286,10 @@ align-items: center;
   text-align: center;
   justify-content: center;
   align-items: center;
-
 }
+
 .conttent-ourcustomer > div {
-  width: 10%;
+  margin: 0 16px 0 16px;
 }
 
 .user-picture {
@@ -351,25 +348,25 @@ align-items: center;
 
 .icon-left {
   font-size: 55px;
-  color: #C0C0C0;
-  padding: 0px 15px 0 0;
+  color: #A9A9A9;
+  padding-right: 15px;
 }
 
 
 .icon-right {
   font-size: 55px;
-  color: #C0C0C0;
-  padding: 100px 0 0 15px;
+  color: #A9A9A9;
+  padding: 85px 0 0 15px; 
 }
 
 .text-ourcustomer {
   color: #F8F8FF;
-  font-size: 15px;
+  font-size: 12px;
   text-align: justify;
-  width: 750px;
+  width: 600px;
   height: 90px;
   line-height: 30px;
-  padding-top: 15px;
+  padding-top: 15px; 
 }
 
 .footer {
@@ -379,65 +376,47 @@ align-items: center;
   font-family: 'Roboto-Medium';
 }
 
-.section-footer {
-  justify-content: start;
-  align-items: center;
-  text-align: justify;
-}
-
-.part-footer {
-  flex-direction: column;
-  width: 75%;
-  padding-top: 53px;
-}
-
-.top-footer {
-  flex-direction: row;
-  padding-left: 15%;
-}
-
-.top-footer > div {
-  color: #8BC34A;
-  line-height: 29px;
-  text-transform: uppercase;
-  font-size: 13px;
-  width: 100%;
-}
-
 .img-hapo {
   width: 96px;
   height: 26px;
 }
 
-.infor-footer {
-  padding-left: 15%;
-}
-.infor-footer > div {
+.section-footer {
   width: 100%;
-  font-size: 10px;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.section-footer > div {
+  text-align: center;
+  margin: 0 20px 0 20px;
+}
+
+.top-part {
+  color: #8BC34A;
+}
+
+.part-footer {
+  padding-top: 15px;
+}
+
+.coppy-right {
+  color: white;
+  padding-top: 16px;
+}
+
+.infor-footer {
   color: white;
 }
 
-.coppy-infor {
-  padding-top: 50px;
-}
- 
-.contact-infor {
-  line-height: 40px;
-} 
-
-.contact-infor > p {
-  width: 70px;
-  height: 36px;
+.infor-footer > p {
+  text-align: justify;
 }
 
-.icon-footer {
-  width: 25%; 
-}
-
-.icon-footer > i {
-  width: 50px; 
+.icon-footer { 
   color: #8BC34A;
-  font-size: 15px;
-  padding-top: 140px;
+  padding-top: 90px;
+}
+.icon-footer > i {
+  margin: 0 10px 0 10px;
 }
