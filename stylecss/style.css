@@ -246,6 +246,7 @@ span {
   padding-top: 14px;
 }
 
+
 .check-box > p {
   font-size: 12px;
   color: #39474E;
@@ -258,29 +259,21 @@ span {
 }
 
 .section-customer {
-  height: 500px;
-  width: 100%;
+  padding: 0 20% 0 20%;
+}
+
+.main-ourcustomer > div {
+  justify-content: space-between;
 }
 
 .top-customer {
   color: #ffffff;
   font-size: 40px;
-  padding: 0px 20% 0px 20%;
 }
 
 .top-customer {
   text-align: center;
   padding-top: 20px;
-}
-
-.conttent-ourcustomer {
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-}
-
-.conttent-ourcustomer > div {
-  margin: 0 16px 0 16px;
 }
 
 .user-picture {
