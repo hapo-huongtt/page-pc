@@ -188,16 +188,14 @@ span {
   text-align: center;
 }
 
-.img-symbol {
-  justify-content: center;
-  width: 100%; 
-  height: 322px;
+.part-symbol {
+  padding: 0 20% 0 20%;
 }
 
-.img-symbol > div {
-  text-align: center;
-  margin: 0 29px 0 29px;
 
+.img-symbol { 
+  height: 322px;
+  justify-content: space-between;
 }
 
 .name-symbol {
