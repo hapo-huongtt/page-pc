@@ -1,0 +1,355 @@
+body {
+  width: 100%;
+  font-family: 'Roboto';
+  overflow-x: hidden;
+  margin: 0;
+}
+
+$text-transform: uppercase;
+$text-align: center;
+$justify-content: center;
+$align-items: center; 
+$color: #283238;
+$cl:#429321;
+$clor: #B4EC51;
+$colors:#ffffff;
+
+@mixin measure ($w,$h){
+  height: $h;
+  width: $w;
+}
+
+%display-flex {
+  justify-content: center;
+  align-items: center; 
+}
+
+%button {
+  border-radius: 100px;
+  border: 1px;
+  @include measure (150px,45px);
+  color: white;
+  font-size: 13px;
+  text-transform: $text-transform;
+  background-color: $cl;
+  background-image: linear-gradient(to right, $cl, $clor);
+  text-align: $text-align;
+}
+
+.flex {
+  display: flex;
+}
+
+.header {
+  @include measure (100%,700px);
+  background-image: url(./img/banner.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  .top-header {
+    padding: 40px 25% 0px 72%;
+    width: 20%;
+  }
+  .about-sign {
+    text-transform: $text-transform;
+    color: #39474E;
+    font-size: 12px;
+    padding-top: 14px;
+  }
+  .sign {
+    margin-left: 10%;
+    border: 2px solid #8BC34A;
+    border-radius: 100px;
+    @include measure (70px,30px);
+    font-size: 12px;
+    text-transform: $text-transform;
+    color: #8BC34A;
+    text-align: $text-align;
+    @extend %display-flex;
+  }
+  .bottom-header  {
+    flex-direction: column;
+    text-align: $text-align;
+  }
+  .logo-header {
+    text-align: $text-align;
+    padding-top: 120px;
+  }
+  .hapo-logo {
+    @include measure (250px,70px);
+  }
+  .icon-header {
+    text-align: $text-align;
+    font-size: 48px;
+    @extend %display-flex;
+  }  
+  .icon-header > div {
+    padding-top: 30px;
+    text-align: $text-align;
+    width: 20%;
+  } 
+  .name-icon {
+    font-size: 30px;
+    @extend %display-flex;
+  }
+  .name-icon > div {
+    padding-top: 19px;
+    text-align: $text-align;
+    color: $color;
+    width: 20%;
+  }
+  .slogan {
+    font: {
+      size: 15px;
+      family: 'Roboto-Italic';
+    }
+    color: $color;
+    text-align: $text-align;
+    padding-top: 50px;
+  }
+  .button-header {
+    text-align: $text-align;
+    padding-top: 34px;
+    .button {
+      @extend %button;
+    }
+  }
+}
+
+
+.main {
+  width: 100%;
+  .conttent-main {
+    box-shadow:  0px -10px 10px 0px #CCCCCC;
+    width: 100%;
+    @extend %display-flex;
+  }
+  .section-main {
+    @extend %display-flex;
+  }
+  .pragraph-main {
+    text-align: justify; 
+    font-family: 'Roboto-Regular';
+    padding: 100px 20% 100px 20%;
+  }
+  .pragraph-img {
+    width: 50%
+  }
+  .pragraph-text {
+     width: 50%;
+    }
+  .pragraph-main > div {
+    margin: 0 15px 0 15px;
+  }
+  .img-main {
+    @include measure (100%,100%);
+  }
+  .content-icon {
+    align-items: $align-items;
+  }
+  .content-icon > i {
+    font-size: 32px;
+    color: $color;
+  }
+  span {
+    font: {
+      size: 34px;
+      family: 'Roboto-Light';
+    }
+    color: $color;
+    padding-left: 19px; 
+  }
+  .slogan-main {
+    font: {
+      size: 12px;
+      family: 'Roboto-Italic';
+    }
+    color: $color;
+  }
+  .content-text {
+    font-size: 12px;
+    color: $color;
+  }
+  .button-main {
+    padding-top: 20px;
+  }
+  .button-start {
+    @extend %button;
+  }  
+  .symbol-main {
+    background-color: $cl;
+    background-image: linear-gradient(to right, $cl, $clor);
+    justify-content: $justify-content;
+  }
+  .symbol-main > div {
+    text-align: $text-align;
+  }
+  .part-symbol {
+    padding: 0 20% 0 20%;
+  }
+  .img-symbol { 
+    height: 322px;
+    justify-content: space-between;
+  }
+  .name-symbol {
+    text-transform: $text-transform;
+    color: white;
+    font-size: 16px;
+    @include measure (90%,42px);
+    padding-top: 12px;
+    text-align: $text-align;
+    line-height: 5px;
+  }
+  .ti-icon {
+    border: 2.5px solid white;
+    border-radius: 100%;
+    @include measure (107px, 107px);
+    color: white;
+    font-size: 36px;
+    @extend %display-flex;
+  }
+  .number {
+    background-color: #7CB342;
+    border: 2.5px solid white;
+    border-radius: 100%;
+    @include measure (43px,43px);
+    margin-top: -30px;
+    font-size: 24px;
+    color: white;
+    @extend %display-flex;
+  }
+  .txt-pragraph {
+    display: flex;
+    flex-direction: column;
+    @extend %display-flex;
+  }
+  .text-box {
+    color: #8BC34A;
+    font-size: 12px;
+    padding-top: 14px;
+  }
+  .check-box > p {
+    font-size: 12px;
+    color: $color;
+    padding-left: 10px;
+  }
+  .our-customer {
+    background-image: url(./img/rectangle3.png);
+    font-family: 'roboto-light';
+  }
+  .section-customer {
+    padding: 0 20% 0 20%;
+  }
+  .main-ourcustomer > div {
+    justify-content: space-between;
+  }
+  .top-customer {
+    color: #ffffff;
+    font-size: 40px;
+  }
+  .top-customer {
+    text-align: $text-align;
+    padding-top: 20px;
+  }
+  .user-picture {
+    @include measure (70px,71px);
+  }
+  .picture-name {
+    color: $colors;
+    @include measure (58px,31px);
+    font-size: 12px;
+    text-align: $text-align;
+  }
+  .customer-slide {
+    justify-content: $justify-content;
+  }
+  .customer-slide > div {
+    text-align: $text-align;
+    margin: 10px;
+  } 
+  .img-slide {
+    border: 0.5px solid $colors;
+    border-radius: 100%;
+    @include measure (8px,8px);
+    background-color: $colors;
+  }
+  .next-slide {
+    border: 0.5px solid #C0C0C0;
+    border-radius: 100%;
+    @include measure (8px,8px);
+  }
+  .icon-text {
+    justify-content: $justify-content;
+  }
+  .icon-text > div {
+    text-align: $text-align;
+    margin: 0 25px 0 25px;
+  } 
+  .icon-left {
+    font-size: 55px;
+    color: #5b5b5c;
+  }
+  .icon-right {
+    font-size: 55px;
+    color: #5b5b5c;
+    padding-top: 80px;
+  }
+  .text-ourcustomer {
+    color: #d0d8dc;
+    font-size: 12px;
+    text-align: justify;
+    width: 520px;
+    line-height: 25px;
+    padding-top: 25px; 
+  }
+}
+
+.footer {
+  background-color:#39474E;
+  font-family: 'Roboto-Medium';
+  @include measure (100%, 179px);
+  .img-hapo {
+    @include measure (90px,20px);
+  }
+  .section-footer {
+    width: 100%;
+    padding: 40px 20% 40px 20%;
+  }
+  .section-footer > div {
+    text-align: $text-align;
+    margin: 0 18px 0 18px;
+  }
+  .part-footer {
+    padding-top: 10px;
+  }
+  .top-part {
+    color: #8BC34A;
+    text-transform: $text-transform;
+    font-size: 13px;
+  }
+  .coppy-right {
+    color: white;
+    padding-top: 35px;
+    font-size: 10px;
+  }
+  
+  .infor-footer {
+    color: white;
+  }
+  
+  .contact-about {
+    font-size: 10px;
+    text-align: justify;
+    @include measure (80px,40px);
+    padding-top: 10px;
+  }
+  
+  .icon-footer { 
+    color: #8BC34A;
+    padding-top: 80px;
+  }
+  
+  .icon-footer > i {
+    margin: 0 10px 0 10px;
+  }
+}
