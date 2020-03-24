@@ -1,0 +1,264 @@
+body {
+  width: 100%;
+  font-family: 'Roboto';
+  overflow-x: hidden;
+  margin: 0; }
+
+.header .sign, .header .icon-header, .header .name-icon, .main .conttent-main, .main .section-main, .main .ti-icon, .main .number, .main .txt-pragraph {
+  justify-content: center;
+  align-items: center; }
+
+.header .button-header .button, .main .button-start {
+  border-radius: 100px;
+  border: 1px;
+  height: 45px;
+  width: 150px;
+  color: white;
+  font-size: 13px;
+  text-transform: uppercase;
+  background-color: #429321;
+  background-image: linear-gradient(to right, #429321, #B4EC51);
+  text-align: center; }
+
+.flex {
+  display: flex; }
+
+.header {
+  height: 700px;
+  width: 100%;
+  background-image: url(./img/banner.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .header .top-header {
+    padding: 40px 25% 0px 72%;
+    width: 20%; }
+  .header .about-sign {
+    text-transform: uppercase;
+    color: #39474E;
+    font-size: 12px;
+    padding-top: 14px; }
+  .header .sign {
+    margin-left: 10%;
+    border: 2px solid #8BC34A;
+    border-radius: 100px;
+    height: 30px;
+    width: 70px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #8BC34A;
+    text-align: center; }
+  .header .bottom-header {
+    flex-direction: column;
+    text-align: center; }
+  .header .logo-header {
+    text-align: center;
+    padding-top: 120px; }
+  .header .hapo-logo {
+    height: 70px;
+    width: 250px; }
+  .header .icon-header {
+    text-align: center;
+    font-size: 48px; }
+  .header .icon-header > div {
+    padding-top: 30px;
+    text-align: center;
+    width: 20%; }
+  .header .name-icon {
+    font-size: 30px; }
+  .header .name-icon > div {
+    padding-top: 19px;
+    text-align: center;
+    color: #283238;
+    width: 20%; }
+  .header .slogan {
+    font-size: 15px;
+    font-family: 'Roboto-Italic';
+    color: #283238;
+    text-align: center;
+    padding-top: 50px; }
+  .header .button-header {
+    text-align: center;
+    padding-top: 34px; }
+
+.main {
+  width: 100%; }
+  .main .conttent-main {
+    box-shadow: 0px -10px 10px 0px #CCCCCC;
+    width: 100%; }
+  .main .pragraph-main {
+    text-align: justify;
+    font-family: 'Roboto-Regular';
+    padding: 100px 20% 100px 20%; }
+  .main .pragraph-img {
+    width: 50%; }
+  .main .pragraph-text {
+    width: 50%; }
+  .main .pragraph-main > div {
+    margin: 0 15px 0 15px; }
+  .main .img-main {
+    height: 100%;
+    width: 100%; }
+  .main .content-icon {
+    align-items: center; }
+  .main .content-icon > i {
+    font-size: 32px;
+    color: #283238; }
+  .main span {
+    font-size: 34px;
+    font-family: 'Roboto-Light';
+    color: #283238;
+    padding-left: 19px; }
+  .main .slogan-main {
+    font-size: 12px;
+    font-family: 'Roboto-Italic';
+    color: #283238; }
+  .main .content-text {
+    font-size: 12px;
+    color: #283238; }
+  .main .button-main {
+    padding-top: 20px; }
+  .main .symbol-main {
+    background-color: #429321;
+    background-image: linear-gradient(to right, #429321, #B4EC51);
+    justify-content: center; }
+  .main .symbol-main > div {
+    text-align: center; }
+  .main .part-symbol {
+    padding: 0 20% 0 20%; }
+  .main .img-symbol {
+    height: 322px;
+    justify-content: space-between; }
+  .main .name-symbol {
+    text-transform: uppercase;
+    color: white;
+    font-size: 16px;
+    height: 42px;
+    width: 90%;
+    padding-top: 12px;
+    text-align: center;
+    line-height: 5px; }
+  .main .ti-icon {
+    border: 2.5px solid white;
+    border-radius: 100%;
+    height: 107px;
+    width: 107px;
+    color: white;
+    font-size: 36px; }
+  .main .number {
+    background-color: #7CB342;
+    border: 2.5px solid white;
+    border-radius: 100%;
+    height: 43px;
+    width: 43px;
+    margin-top: -30px;
+    font-size: 24px;
+    color: white; }
+  .main .txt-pragraph {
+    display: flex;
+    flex-direction: column; }
+  .main .text-box {
+    color: #8BC34A;
+    font-size: 12px;
+    padding-top: 14px; }
+  .main .check-box > p {
+    font-size: 12px;
+    color: #283238;
+    padding-left: 10px; }
+  .main .our-customer {
+    background-image: url(./img/rectangle3.png);
+    font-family: 'roboto-light'; }
+  .main .section-customer {
+    padding: 0 20% 0 20%; }
+  .main .main-ourcustomer > div {
+    justify-content: space-between; }
+  .main .top-customer {
+    color: #ffffff;
+    font-size: 40px; }
+  .main .top-customer {
+    text-align: center;
+    padding-top: 20px; }
+  .main .user-picture {
+    height: 71px;
+    width: 70px; }
+  .main .picture-name {
+    color: #ffffff;
+    height: 31px;
+    width: 58px;
+    font-size: 12px;
+    text-align: center; }
+  .main .customer-slide {
+    justify-content: center; }
+  .main .customer-slide > div {
+    text-align: center;
+    margin: 10px; }
+  .main .img-slide {
+    border: 0.5px solid #ffffff;
+    border-radius: 100%;
+    height: 8px;
+    width: 8px;
+    background-color: #ffffff; }
+  .main .next-slide {
+    border: 0.5px solid #C0C0C0;
+    border-radius: 100%;
+    height: 8px;
+    width: 8px; }
+  .main .icon-text {
+    justify-content: center; }
+  .main .icon-text > div {
+    text-align: center;
+    margin: 0 25px 0 25px; }
+  .main .icon-left {
+    font-size: 55px;
+    color: #5b5b5c; }
+  .main .icon-right {
+    font-size: 55px;
+    color: #5b5b5c;
+    padding-top: 80px; }
+  .main .text-ourcustomer {
+    color: #d0d8dc;
+    font-size: 12px;
+    text-align: justify;
+    width: 520px;
+    line-height: 25px;
+    padding-top: 25px; }
+
+.footer {
+  background-color: #39474E;
+  font-family: 'Roboto-Medium';
+  height: 179px;
+  width: 100%; }
+  .footer .img-hapo {
+    height: 20px;
+    width: 90px; }
+  .footer .section-footer {
+    width: 100%;
+    padding: 40px 20% 40px 20%; }
+  .footer .section-footer > div {
+    text-align: center;
+    margin: 0 18px 0 18px; }
+  .footer .part-footer {
+    padding-top: 10px; }
+  .footer .top-part {
+    color: #8BC34A;
+    text-transform: uppercase;
+    font-size: 13px; }
+  .footer .coppy-right {
+    color: white;
+    padding-top: 35px;
+    font-size: 10px; }
+  .footer .infor-footer {
+    color: white; }
+  .footer .contact-about {
+    font-size: 10px;
+    text-align: justify;
+    height: 40px;
+    width: 80px;
+    padding-top: 10px; }
+  .footer .icon-footer {
+    color: #8BC34A;
+    padding-top: 80px; }
+  .footer .icon-footer > i {
+    margin: 0 10px 0 10px; }
+
+/*# sourceMappingURL=style.css.map */
